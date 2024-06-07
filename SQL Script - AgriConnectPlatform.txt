@@ -1,0 +1,63 @@
+This script is used to prepopulate data
+
+
+INSTRUCTIONS: - MAKE SURE YOU FOLLOW THE INSTRUCTIONS IN THE README.txt FIRST
+
+	- Open Microsoft SQL Server Management Studio (SSMS) 
+	- Connect to the same server as the one assigned in the connection string
+	- Right click on the AgriConnectPlatform database and click "New Query"
+	- Copy and paste the sql script for the program below and run the scripts 
+
+
+SQL SCRIPT FOR PROGRAM:
+
+-- Create a new database
+CREATE DATABASE AgriEnergyConnectDB;
+
+USE AgriEnergyConnectDB;
+
+-- Create Farmer table
+CREATE TABLE Farmers (
+    FarmerID INT PRIMARY KEY IDENTITY(1,1),
+    FarmerName NVARCHAR(100),
+    FarmerEmail NVARCHAR(100),
+    FarmerPassword NVARCHAR(256),
+    RegistrationDate DATETIME DEFAULT GETDATE()
+);
+
+INSERT INTO Farmers (FarmerName, FarmerEmail, FarmerPassword)
+VALUES ('Jess', 'jess@gmail.com', '123');
+
+
+-- Create Employee table
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY IDENTITY(1,1),
+    EmployeeName NVARCHAR(100),
+    EmployeeEmail NVARCHAR(100),
+    EmployeePassword NVARCHAR(256),
+    RegistrationDate DATETIME DEFAULT GETDATE()
+);
+
+
+INSERT INTO Employees (EmployeeName, EmployeeEmail, EmployeePassword)
+VALUES ('Joy', 'joy@gmail.com', 'abc');
+
+
+-- Create Product table
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY IDENTITY(1,1),
+    FarmerID INT FOREIGN KEY REFERENCES Farmers(FarmerID),
+    ProductName NVARCHAR(100),
+    Description NVARCHAR(500),
+    Category NVARCHAR(50),
+	AdditionDate DATETIME DEFAULT GETDATE()
+);
+
+
+POPULATED USER PASSWORDS
+	 - Employee: Email - joy@gmail.com : Password - abc 
+	 - Employee: Email - h@gmail.com : Password - a1b2
+	 - Farmer: Email - jess@gmail.com : Password 123
+	 - Farmer: Email - l@gmail.com : Password 1223
+	 - Farmer: Email - sandy@gmail.com : Password - sandy2
+

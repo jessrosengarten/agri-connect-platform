@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Employee Home";
+}
+
+<h1>Welcome employee @ViewBag.EmployeeName!</h1>
+
+<div class="button-container">
+    <button onclick="location.href='@Url.Action("AddFarmer", "Employee")'">Add Farmer</button>
+    <button onclick="location.href='@Url.Action("ViewAllFarmerProducts", "Product")'">View Products</button>
+    <button onclick="location.href='@Url.Action("Login", "Login")'">Logout</button>
+</div>
+
+<style>
+    .button-container {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+        .button-container button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+            .button-container button:hover {
+                background-color: #0056b3;
+            }
+</style>
