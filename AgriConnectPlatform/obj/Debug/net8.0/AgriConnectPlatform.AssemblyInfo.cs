@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgriConnectPlatform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59e3b2018d068a4527f03403058fc3002fe7c0e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgriConnectPlatform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgriConnectPlatform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

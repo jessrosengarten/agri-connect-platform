@@ -3,8 +3,12 @@ using System.Text;
 
 namespace AgriConnectPlatform.Models
 {
+    /// <summary>
+    /// Class to represent an Employee
+    /// </summary>
     public class Employee
     {
+        // Properties representing an Employee
         public int EmployeeID { get; set; }        
         public string EmployeeName { get; set; }    
         public string EmployeeEmail { get; set; }   
@@ -12,7 +16,7 @@ namespace AgriConnectPlatform.Models
         public DateTime RegistrationDate { get; set; }
 
 
-        // Constructor
+        // Constructor to initialize an Employee object
         public Employee(string employeeName, string employeeEmail, string employeePassword, DateTime registrationDate)
         {
             EmployeeName = employeeName;
@@ -21,11 +25,10 @@ namespace AgriConnectPlatform.Models
             RegistrationDate = registrationDate;
         }
 
-        // Method to get an Employee by email
+        // Method to get an Employee by email from the database
         public static Employee GetEmployee(string employeeEmail)
         {
             Employee employee = null;
-
             string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=AgriEnergyConnectDB;Integrated Security=True"; 
 
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -51,18 +54,9 @@ namespace AgriConnectPlatform.Models
             }
             return employee;
         }
-        // Method to hash password
-        public static string HashPassword(string password)
-        {
-            return Convert.ToBase64String(Encoding.UTF8.GetBytes(password));
-        }
 
-        public static string UnHashPassword(string password)
-        {
-            return Encoding.UTF8.GetString(Convert.FromBase64String(password));
-        }
 
-        // Method to add a new Employee
+        // Method to add a new Employee to the database
         public static void AddEmployee(string employeeName, string employeeEmail, string employeePassword)
         {
             string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=AgriEnergyConnectDB;Integrated Security=True";

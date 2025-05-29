@@ -3,16 +3,20 @@ using System.Data;
 
 namespace AgriConnectPlatform.Models
 {
+    /// <summary>
+    /// Class to represent a Product
+    /// </summary>
     public class Product
     {
-        public int ProductID { get; set; } // PK      
-        public int FarmerID { get; set; } // FK
+        // Properties representing a Product
+        public int ProductID { get; set; }       
+        public int FarmerID { get; set; } 
         public string ProductName { get; set; }   
         public string Description { get; set; }    
         public string Category { get; set; }       
         public DateTime AdditionDate { get; set; }
 
-        // Constructor
+        // Constructor to initialize a Product object
         public Product(int farmerID, string productName, string description, string category, DateTime additionDate)
         {
             FarmerID = farmerID;
@@ -22,11 +26,13 @@ namespace AgriConnectPlatform.Models
             AdditionDate = additionDate;
         }
 
-        // Method to add a new Product
+        // Method to add a new Product to the database
         public static void AddProduct(int farmerID, string productName, string description, string category)
         {
+            // Define the connection string
             string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=AgriEnergyConnectDB;Integrated Security=True";
 
+            // Create a connection and command objects
             using (SqlConnection con = new SqlConnection(connectionString))
             {
                 string sqlInsert = "INSERT INTO Products (FarmerID, ProductName, Description, Category, AdditionDate) " +
@@ -44,7 +50,7 @@ namespace AgriConnectPlatform.Models
             }
         }
 
-        // Method to get Products by FarmerID
+        // Method to get Products by FarmerID from the database
         public static DataTable GetProductsByFarmerID(int farmerID)
         {
             DataTable productsTable = new DataTable();
@@ -68,7 +74,7 @@ namespace AgriConnectPlatform.Models
         }
 
 
-        // Method to view products associated with a farmer
+        // Method to view products associated with a farmer by their ID
         public static void ViewProducts(int farmerId)
         {
             DataTable productsTable = new DataTable();
@@ -106,7 +112,7 @@ namespace AgriConnectPlatform.Models
             }
         }
 
-        // Method to get all products
+        // Method to get all products from the database
         public static DataTable GetAllProducts()
         {
             DataTable productsTable = new DataTable();
@@ -126,7 +132,7 @@ namespace AgriConnectPlatform.Models
             return productsTable;
         }
 
-        // Method to filter products by category
+        // Method to filter products by category from the database
         public static DataTable FilterProductsByCategory(string category)
         {
             DataTable productsTable = new DataTable();

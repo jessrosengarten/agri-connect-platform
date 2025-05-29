@@ -1809,3 +1809,4 @@ C:\Users\Jess\source\repos\ST10153811 AgriConnectPlatform\AgriConnectPlatform\ob
 C:\Users\Jess\source\repos\ST10153811 AgriConnectPlatform\AgriConnectPlatform\obj\Debug\net8.0\AgriConnectPlatform.pdb
 C:\Users\Jess\source\repos\ST10153811 AgriConnectPlatform\AgriConnectPlatform\obj\Debug\net8.0\AgriConnectPlatform.genruntimeconfig.cache
 C:\Users\Jess\source\repos\ST10153811 AgriConnectPlatform\AgriConnectPlatform\obj\Debug\net8.0\ref\AgriConnectPlatform.dll
+C:\Users\Jess\source\repos\ST10153811 AgriConnectPlatform\AgriConnectPlatform\obj\Debug\net8.0\AgriConnectPlatform.sourcelink.json

@@ -9,8 +9,12 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 namespace AgriConnectPlatform.Models
 
 {
+    /// <summary>
+    /// Class to represent a Farmer
+    /// </summary>
     public class Farmer
     {
+        // Properties representing a Farmer
         public int FarmerID { get; set; }         
         public string FarmerName { get; set; }  
         public string FarmerEmail { get; set; } 
@@ -20,7 +24,7 @@ namespace AgriConnectPlatform.Models
         public static int getFarmerID;
 
 
-        // Constructor
+        // Constructor to initialize a Farmer object
         public Farmer(string farmerName, string farmerEmail, string farmerPassword, DateTime registrationDate)
         {
             FarmerName = farmerName;
@@ -30,7 +34,7 @@ namespace AgriConnectPlatform.Models
 
         }
 
-        // Method to get a Farmer by email
+        // Method to get a Farmer by email from the database
         public static Farmer GetFarmer(string farmerEmail)
         {
             Farmer farmer = null; // Initialize the farmer object to null
@@ -63,7 +67,7 @@ namespace AgriConnectPlatform.Models
             return farmer; // Return the farmer object
         }
 
-
+        // Method to get a Farmer by ID from the database
         public static Farmer GetFarmerById(int farmerId)
         {
             Farmer farmer = null;
@@ -94,6 +98,7 @@ namespace AgriConnectPlatform.Models
             return farmer;
         }
 
+        // Method to add a new Farmer to the database
         public static void AddFarmer(string farmerName, string farmerEmail, string farmerPassword) 
         {
             // Define the connection string
@@ -115,7 +120,7 @@ namespace AgriConnectPlatform.Models
             }
         }
 
-        // Method to view products associated with a farmer
+        // Method to view products associated with a farmer by their ID
         public static DataTable ViewProducts(int farmerId)
         {
             DataTable productsTable = new DataTable();
@@ -153,6 +158,39 @@ namespace AgriConnectPlatform.Models
             }
 
             return productsTable;
+        }
+
+        // Method to filter farmers based on name
+        public static List<Farmer> FilterFarmers(string name)
+        {
+            List<Farmer> farmers = new List<Farmer>();
+
+            string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=AgriEnergyConnectDB;Integrated Security=True";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                string sqlSelect = "SELECT * FROM Farmers WHERE @FarmerName IS NULL OR FarmerName LIKE @FarmerName";
+                SqlCommand cmdSelect = new SqlCommand(sqlSelect, con);
+                cmdSelect.Parameters.AddWithValue("@FarmerName", string.IsNullOrEmpty(name) ? (object)DBNull.Value : "%" + name + "%");
+
+                con.Open();
+                using (SqlDataReader reader = cmdSelect.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Farmer farmer = new Farmer(
+                            reader["FarmerName"].ToString(),
+                            reader["FarmerEmail"].ToString(),
+                            reader["FarmerPassword"].ToString(),
+                            Convert.ToDateTime(reader["RegistrationDate"])
+                        );
+                        farmer.FarmerID = Convert.ToInt32(reader["FarmerID"]);
+                        farmers.Add(farmer);
+                    }
+                }
+            }
+
+            return farmers;
         }
     }
 }

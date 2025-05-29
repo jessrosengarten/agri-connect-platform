@@ -3,100 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\product\\filteredproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\product\\filteredproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\product\\viewallfarmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\product\\viewallfarmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\models\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:models\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\farmer\\addfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\farmer\\addfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\employee\\employeehome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\employee\\employeehome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\product\\filteredproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\product\\filteredproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\employee\\employeehome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\employee\\employeehome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\farmer\\addfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\farmer\\addfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:controllers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\product\\viewfarmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\product\\viewfarmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\farmer\\filterfarmers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\farmer\\filterfarmers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\farmer\\farmerhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\farmer\\farmerhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\farmer\\farmerhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\farmer\\farmerhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\product\\viewfarmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\product\\viewfarmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\product\\viewallfarmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\product\\viewallfarmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FDB9A75-BA83-492C-A851-C8A453499765}|AgriConnectPlatform.csproj|c:\\users\\jess\\source\\repos\\st10153811 agriconnectplatform\\agriconnectplatform\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,7 +121,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -121,52 +129,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FilteredProducts.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\FilteredProducts.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\FilteredProducts.cshtml",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\FilteredProducts.cshtml",
-              "RelativeToolTip": "Views\\Product\\FilteredProducts.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T15:15:44.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ViewAllFarmerProducts.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\ViewAllFarmerProducts.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\ViewAllFarmerProducts.cshtml",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\ViewAllFarmerProducts.cshtml",
-              "RelativeToolTip": "Views\\Product\\ViewAllFarmerProducts.cshtml",
-              "ViewState": "AQIAADgAAAAAAAAAAAAowDsAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T20:50:42.782Z"
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-07T16:19:57.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FarmerController.cs",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\FarmerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FarmerController.cs",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\FarmerController.cs",
-              "RelativeToolTip": "Controllers\\FarmerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T14:16:17.989Z"
+              "Title": "EmployeeHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Employee\\EmployeeHome.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\EmployeeHome.cshtml",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Employee\\EmployeeHome.cshtml",
+              "RelativeToolTip": "Views\\Employee\\EmployeeHome.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T22:12:07.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T14:02:21.207Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T17:19:29.385Z"
             },
             {
               "$type": "Document",
@@ -176,121 +172,49 @@
               "RelativeDocumentMoniker": "Views\\Product\\AddProduct.cshtml",
               "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\AddProduct.cshtml",
               "RelativeToolTip": "Views\\Product\\AddProduct.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAZAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-31T10:00:35.036Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T11:53:04.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwIYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T09:59:46.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAkwJcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T14:12:17.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Farmer.cs",
               "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Farmer.cs",
               "RelativeDocumentMoniker": "Models\\Farmer.cs",
               "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Farmer.cs",
               "RelativeToolTip": "Models\\Farmer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T12:24:41.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAkwFwAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAmwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T14:12:18.78Z"
+              "WhenOpened": "2024-06-07T20:20:54.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "Models\\Login.cs",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Login.cs",
-              "RelativeToolTip": "Models\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T14:23:47.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAA3wBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T11:53:08.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Login\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Login\\Login.cshtml",
-              "RelativeToolTip": "Views\\Login\\Login.cshtml",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAAE0AAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "FilteredProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\FilteredProducts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\FilteredProducts.cshtml",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\FilteredProducts.cshtml",
+              "RelativeToolTip": "Views\\Product\\FilteredProducts.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-28T20:03:19.545Z"
+              "WhenOpened": "2024-06-07T15:15:44.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-26T10:24:49.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 7,
               "Title": "AddFarmer.cshtml",
               "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Farmer\\AddFarmer.cshtml",
               "RelativeDocumentMoniker": "Views\\Farmer\\AddFarmer.cshtml",
@@ -302,103 +226,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmployeeHome.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Employee\\EmployeeHome.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\EmployeeHome.cshtml",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Employee\\EmployeeHome.cshtml",
-              "RelativeToolTip": "Views\\Employee\\EmployeeHome.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T22:12:07.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T17:19:29.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-28T14:12:09.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-07T16:20:06.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-07T16:19:57.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-28T14:05:49.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ViewFarmerProducts.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\ViewFarmerProducts.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\ViewFarmerProducts.cshtml",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\ViewFarmerProducts.cshtml",
-              "RelativeToolTip": "Views\\Product\\ViewFarmerProducts.cshtml",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAAAFoAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T18:29:53.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "FarmerController.cs",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\FarmerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FarmerController.cs",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\FarmerController.cs",
+              "RelativeToolTip": "Controllers\\FarmerController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAuwFIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T14:12:14.266Z"
+              "WhenOpened": "2024-06-07T14:16:17.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 9,
+              "Title": "FilterFarmers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Farmer\\FilterFarmers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Farmer\\FilterFarmers.cshtml",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Farmer\\FilterFarmers.cshtml",
+              "RelativeToolTip": "Views\\Farmer\\FilterFarmers.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T10:37:24.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FarmerHome.cshtml",
               "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Farmer\\FarmerHome.cshtml",
               "RelativeDocumentMoniker": "Views\\Farmer\\FarmerHome.cshtml",
@@ -410,7 +262,187 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T20:03:19.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T14:12:14.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAwwIgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:59:46.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-07T16:20:06.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T11:53:08.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T14:12:09.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T14:12:18.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ViewFarmerProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\ViewFarmerProducts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\ViewFarmerProducts.cshtml",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\ViewFarmerProducts.cshtml",
+              "RelativeToolTip": "Views\\Product\\ViewFarmerProducts.cshtml",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAAAFoAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T18:29:53.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA9wBMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T14:12:17.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ViewAllFarmerProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\ViewAllFarmerProducts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\ViewAllFarmerProducts.cshtml",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\Product\\ViewAllFarmerProducts.cshtml",
+              "RelativeToolTip": "Views\\Product\\ViewAllFarmerProducts.cshtml",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAqwEwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T20:50:42.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:23:47.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T14:02:21.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T11:53:04.271Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-26T10:24:49.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T14:05:49.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Jess\\source\\repos\\ST10153811 AgriConnectPlatform\\AgriConnectPlatform\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -422,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jess\\AppData\\Local\\Temp\\11bfeb57-63b1-4208-8070-0df6ec12e0f8_AgriConnectPlatform.zip.0f8\\AgriConnectPlatform\\AgriConnectPlatform\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\11bfeb57-63b1-4208-8070-0df6ec12e0f8_AgriConnectPlatform.zip.0f8\\AgriConnectPlatform\\AgriConnectPlatform\\Program.cs",
