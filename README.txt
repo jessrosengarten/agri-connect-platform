@@ -1,123 +1,124 @@
-# AgriConnect Platform
+# AgriConnectPlatform
 
-A simple and effective ASP.NET MVC web application designed to support small-scale agricultural businesses through secure data entry, user access control, and product management. Built using the .NET 6.0 framework with SQL Server integration, the AgriConnect Platform streamlines how employees manage farmers, and how farmers manage their products.
-
----
-
-## Overview
-
-The AgriConnect Platform is built using:
-
-* **ASP.NET MVC** (.NET 6.0)
-* **SQL Server** (with SQL Server Management Studio)
-* **Code-First Entity Framework**
-
-### Core Functionality
-
-* **Employee Role**
-
-  * Login to view and manage registered farmers
-  * Add new farmers (auto-generates registration date)
-  * View all product listings or filter by category
-
-* **Farmer Role**
-
-  * Login to manage their own product listings
-  * View only their products securely
-
-All access and data visibility is restricted to authenticated users, with different views and permissions based on user roles.
+A .NET 6.0 MVC web application for managing farmers and agricultural products in a secure and structured environment. This system allows employees to register farmers, and enables farmers to add and manage their products.
 
 ---
 
-## System Requirements
+## Contents
 
-### Supported Operating System
-
-* Windows 10 or later
-
-### Required Software
-
-* **Visual Studio 2019 or later** (Community Edition is fine)
-* **.NET 6.0 SDK**
-* **Microsoft SQL Server**
-* **SQL Server Management Studio (SSMS)**
+1. [Overview](#overview)  
+2. [System Requirements](#system-requirements)  
+3. [Installing & Running the Application](#installing--running-the-application)
 
 ---
 
-## Getting Started
+## 1. Overview
 
-### 1. Clone or Download the Repository
+**Application structure:**
 
-Extract the zipped folder or clone this repository to your local machine.
+- Built with ASP.NET MVC (.NET 6.0)
+- Uses Microsoft SQL Server and SQL Server Management Studio (SSMS)
+- Follows the Code First approach
 
-The project contains:
+**User roles:**
 
-* AgriConnectPlatform solution files (Visual Studio)
-* A SQL script to pre-populate the database with sample data
+- **Employees** can:
+  - Log in
+  - View a list of all registered farmers
+  - Add new farmers to the system (creation date is auto-generated)
+  - View and filter products by category
 
-### 2. Open the Project in Visual Studio
+- **Farmers** can:
+  - Log in
+  - View products associated with their profile
 
-* Launch Visual Studio
-* Open the solution folder
+Only authenticated users can view or interact with data.
 
-### 3. Configure SQL Server
+---
 
-* Open SQL Server Management Studio (SSMS)
-* Copy your local SQL server name (e.g., `(LocalDB)\MSSQLLocalDB`)
+## 2. System Requirements
 
-### 4. Update `appsettings.json`
+### Supported OS:
 
-Update the connection string in `appsettings.json` with your local SQL Server instance:
+- Microsoft Windows 10
+
+### Not Supported:
+
+- MS-DOS  
+- Windows 3.1  
+- Windows NT 3.51 / 4.0  
+- Windows 95 / 98  
+- Linux
+
+### Additional Software:
+
+- Visual Studio Community 2019 Version 16.9.4 or later  
+- .NET 6.0 SDK  
+- Microsoft SQL Server  
+- SQL Server Management Studio (SSMS)
+
+---
+
+## 3. Installing & Running the Application
+
+### Step 1: Unzip the Folder
+
+Includes:
+
+- `AgriConnectPlatform` (Visual Studio project files)
+- SQL script to prepopulate the database
+
+### Step 2: Open in Visual Studio
+
+- Open the solution folder in Visual Studio
+
+### Step 3: Configure SQL Server
+
+1. Open SQL Server Management Studio (SSMS)  
+2. Copy your local server name (e.g., `(LocalDB)\MSSQLLocalDB`)
+
+### Step 4: Update Connection String
+
+1. In Visual Studio, open `appsettings.json`
+2. Replace the server name in the connection string:
 
 ```json
-"ConnectionStrings": {
-  "DefaultConnection": "Server=(LocalDB)\\MSSQLLocalDB;Database=AgriEnergyConnectDB;Trusted_Connection=True;"
-}
+"DefaultConnection": "Server=(LocalDB)\MSSQLLocalDB;Database=AgriEnergyConnectDB;Trusted_Connection=True;"
 ```
 
-> Be sure to remove angle brackets and enter your correct local server.
+> ⚠️ **Remove the angle brackets and escape slashes properly.**
 
-### 5. Create and Seed the Database
+### Step 5: Run SQL Script
 
-* Open SSMS and run the provided SQL script to pre-populate the database with test data.
+- Open the SQL script in SSMS and execute it to populate the database with sample data.
 
-### 6. Run the Application
+### Step 6: Run the Application
 
-In Visual Studio:
-
-* Press the green play button (`Run`) or press `F5`
-* This will build the solution and launch the application in your browser
+- In Visual Studio, click the green “Run” button or press `F5`.
 
 ---
 
-## Sample Login Credentials (for demo/testing)
+## Default Users (for testing)
 
 ### Employees
 
-* **[joy@gmail.com](mailto:joy@gmail.com)** : `abc`
-* **[h@gmail.com](mailto:h@gmail.com)** : `a1b2`
+| Email           | Password    |
+|------------------|-------------|
+| joy@gmail.com     | abc         |
+| h@gmail.com       | a1b2        |
 
 ### Farmers
 
-* **[jess@gmail.com](mailto:jess@gmail.com)** : `123`
-* **[l@gmail.com](mailto:l@gmail.com)** : `1223`
-* **[sandy@gmail.com](mailto:sandy@gmail.com)** : `sandy2`
-
-Use these accounts to explore both employee and farmer features.
-
----
-
-## Why This Project?
-
-This application was built as a practical exploration of:
-
-* Role-based access control
-* Secure data connection and management
-* Entity Framework (Code-First)
-* Structured data flow and separation of concerns within ASP.NET MVC
-
-It demonstrates a clean separation between different user types and provides a working model for managing domain-specific data securely.
+| Email              | Password    |
+|---------------------|-------------|
+| jess@gmail.com       | 123         |
+| l@gmail.com          | 1223        |
+| sandy@gmail.com      | sandy2      |
 
 ---
 
-Feel free to fork, explore, or contact me if you'd like to collaborate or know more about this project!
+## Notes
+
+- The app uses Entity Framework Core with Code First Migration.
+- User passwords are securely hashed.
+- All data is protected through authentication and role-based authorization.
