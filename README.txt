@@ -86,7 +86,6 @@ Includes:
 "DefaultConnection": "Server=(LocalDB)\MSSQLLocalDB;Database=AgriEnergyConnectDB;Trusted_Connection=True;"
 ```
 
-> ⚠️ **Remove the angle brackets and escape slashes properly.**
 
 ### Step 5: Run SQL Script
 
