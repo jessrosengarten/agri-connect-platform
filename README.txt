@@ -1,130 +1,123 @@
-************************************************************************
-	ST10153811 
-	PROG7311 POE Task 2
-		
-	README to setup and run the AgriConnectPlatform application
-************************************************************************
+# AgriConnect Platform
 
-************************************************************************
-*  CONTENTS:
-************************************************************************
+A simple and effective ASP.NET MVC web application designed to support small-scale agricultural businesses through secure data entry, user access control, and product management. Built using the .NET 6.0 framework with SQL Server integration, the AgriConnect Platform streamlines how employees manage farmers, and how farmers manage their products.
 
-This document contains the following sections:
+---
 
-1.  Overview
-2.  System Requirements
-3.  Installing/Configuring the Software 
+## Overview
 
-************************************************************************
-* 1.  OVERVIEW
-************************************************************************
+The AgriConnect Platform is built using:
 
-   ==> Application structure:
-    = ASP.NET MVC - .NET 6.0
-	= utilizes Microsoft Sql Server (see section 3!) and SSMS
-	= Code First Approach
-	
-	The AgriConnectPlatform application allows employees to add farmers and 
-	subsequently farmers can add products.
+* **ASP.NET MVC** (.NET 6.0)
+* **SQL Server** (with SQL Server Management Studio)
+* **Code-First Entity Framework**
 
-    The application has been provisioned for two types of users:
-	- Employees
-	- Farmers
-	
-	Only logged in users are able to see data.
-	
-	Employee are able to login and see the list of all farmers loaded on the
-	application. 
-	The employee can add a new farmer to the database. The creation date
-	is automatically generated.
-	
-	The employee can see a list of all products loaded into the system.
-	The employee does this by clicking "View Products" on the employee home page. 
-	Alternatively,
-	The employee can choose to filter the products by category.
-	This is done by clicking the "Filter" button in the View Products 
-	section of the employee page.
-	
-	Once a farmer has signed in, they can view a list of only the products in their profile.
-		
+### Core Functionality
 
-************************************************************************
-* 2.  SYSTEM REQUIREMENTS
-************************************************************************
+* **Employee Role**
 
-1.  The system must be running on one of the following
-    operating systems:
-    
-    - Microsoft Windows 10
-   
-2. The following operating systems are not supported:
+  * Login to view and manage registered farmers
+  * Add new farmers (auto-generates registration date)
+  * View all product listings or filter by category
 
-    Any version of the following Microsoft operating systems:
-    - MS-DOS
-    - Windows 3.1
-    - Windows NT 3.51
-    - Windows 95
-    - Windows 98
-    - Windows NT 4.0
+* **Farmer Role**
 
-    Any version of the following operating systems:
-    - Linux 
+  * Login to manage their own product listings
+  * View only their products securely
 
-3.  The system should contain at least the minimum system 
-    memory required by the operating system.
+All access and data visibility is restricted to authenticated users, with different views and permissions based on user roles.
 
-4. The following additional software is required 
- 
-	Microsoft Visual Studio Community 2019 Version 16.9.4
-    Microsoft.NET Framework Version 6.0 
-	Microsoft SQL Server
-	Microsoft SQL Server Management Studio (SSMS)
+---
 
-************************************************************************
-* 3.  INSTALLING/CONFIGURING THE SOFTWARE
-************************************************************************
+## System Requirements
 
-1. Unzip the folder 
-   (Right click on folder and then select extract all)
-   - included in this folder:
-	= AgriConnectPlatform (Visual Studio Application files)
-	= SQL Script (file with the scripts to add prepopulated data to the database) [SEE Step 5]
+### Supported Operating System
 
-   NOTE: you will need a sub directory / file-path of this folder to update the output directory (see below)
+* Windows 10 or later
 
-2. Open file in Visual Studio
-    - Open the folder
+### Required Software
 
-	 
-3. Open Microsoft SQL Server Management Studio
-	= copy the local server name (E.g. (LocalDB)\MSSQLLocalDB )
+* **Visual Studio 2019 or later** (Community Edition is fine)
+* **.NET 6.0 SDK**
+* **Microsoft SQL Server**
+* **SQL Server Management Studio (SSMS)**
 
-4. In Visual Studio the Solution Explorer (right hand side), double click on the "appsettings.json"
+---
 
-	= You will need to update the connection string, paste the local server name in the string like below:
-	
-	Example: (remove <>
-	
-	    "DefaultConnection": "Server=<INPUT SERVER NAME HERE>;Database=AgriEnergyConnectDB;Trusted_Connection=True;"
+## Getting Started
 
-	NOTE: remove the <>
-	
-	EG For this project:
-	"DefaultConnection": "Server=(LocalDB)\\MSSQLLocalDB;Database=AgriEnergyConnectDB;Trusted_Connection=True;"
+### 1. Clone or Download the Repository
 
-	 FALIURE TO UPDATE THIS MAY RESULT IN CONNECTION ERRORS
-	
-5.  Write the script in SSMS:
-	= The SQL script will be shown in a separate folder. Add this to SSMS and run this to populate the data.
-	
-6. Configuration complete, run application
-	- In Visual Studio, click RUN (green play icon) to compile and run the program
+Extract the zipped folder or clone this repository to your local machine.
 
-7. POPULATED USER PASSWORDS
-	 - Employee: Email - joy@gmail.com : Password - abc 
-	 - Employee: Email - h@gmail.com : Password - a1b2
-	 - Farmer: Email - jess@gmail.com : Password 123
-	 - Farmer: Email - l@gmail.com : Password 1223
-	 - Farmer: Email - sandy@gmail.com : Password - sandy2
+The project contains:
 
-These can be used to log in to the application
+* AgriConnectPlatform solution files (Visual Studio)
+* A SQL script to pre-populate the database with sample data
+
+### 2. Open the Project in Visual Studio
+
+* Launch Visual Studio
+* Open the solution folder
+
+### 3. Configure SQL Server
+
+* Open SQL Server Management Studio (SSMS)
+* Copy your local SQL server name (e.g., `(LocalDB)\MSSQLLocalDB`)
+
+### 4. Update `appsettings.json`
+
+Update the connection string in `appsettings.json` with your local SQL Server instance:
+
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=(LocalDB)\\MSSQLLocalDB;Database=AgriEnergyConnectDB;Trusted_Connection=True;"
+}
+```
+
+> Be sure to remove angle brackets and enter your correct local server.
+
+### 5. Create and Seed the Database
+
+* Open SSMS and run the provided SQL script to pre-populate the database with test data.
+
+### 6. Run the Application
+
+In Visual Studio:
+
+* Press the green play button (`Run`) or press `F5`
+* This will build the solution and launch the application in your browser
+
+---
+
+## Sample Login Credentials (for demo/testing)
+
+### Employees
+
+* **[joy@gmail.com](mailto:joy@gmail.com)** : `abc`
+* **[h@gmail.com](mailto:h@gmail.com)** : `a1b2`
+
+### Farmers
+
+* **[jess@gmail.com](mailto:jess@gmail.com)** : `123`
+* **[l@gmail.com](mailto:l@gmail.com)** : `1223`
+* **[sandy@gmail.com](mailto:sandy@gmail.com)** : `sandy2`
+
+Use these accounts to explore both employee and farmer features.
+
+---
+
+## Why This Project?
+
+This application was built as a practical exploration of:
+
+* Role-based access control
+* Secure data connection and management
+* Entity Framework (Code-First)
+* Structured data flow and separation of concerns within ASP.NET MVC
+
+It demonstrates a clean separation between different user types and provides a working model for managing domain-specific data securely.
+
+---
+
+Feel free to fork, explore, or contact me if you'd like to collaborate or know more about this project!
